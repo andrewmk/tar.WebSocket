@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.WebSockets;
 
-namespace tar.WebSocket {
+namespace ajh.WebSocket {
   public class WebSocketClientInfo {
     public WebSocketClientAction ClientAction { get; set; }
     public string ClientActionDescription { get; set; } = string.Empty;

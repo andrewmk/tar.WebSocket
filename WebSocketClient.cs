@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace tar.WebSocket {
+namespace ajh.WebSocket {
   public class WebSocketClient {
     private ClientWebSocket _clientWebSocket;
     private DateTime? _closed;
@@ -201,7 +201,7 @@ namespace tar.WebSocket {
       _closed = null;
 
       if (_options is null) {
-        _clientWebSocket.Options.KeepAliveInterval = TimeSpan.FromSeconds(1);
+		// nothing
       } else {
         if (_options.ClientCertificates != null) {
           _clientWebSocket.Options.ClientCertificates = _options.ClientCertificates;
@@ -214,7 +214,7 @@ namespace tar.WebSocket {
         if (_options.KeepAliveInterval is TimeSpan keepAliveInterval) {
           _clientWebSocket.Options.KeepAliveInterval = keepAliveInterval;
         } else {
-          _clientWebSocket.Options.KeepAliveInterval = TimeSpan.FromSeconds(1);
+          // nothing
         }
 
         if (_options.Credentials != null) {

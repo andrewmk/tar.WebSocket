@@ -1,4 +1,4 @@
-﻿namespace tar.WebSocket {
+﻿namespace ajh.WebSocket {
   public enum WebSocketClientAction {
     Closing,
     Connecting,

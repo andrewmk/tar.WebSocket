@@ -2,7 +2,7 @@
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
 
-namespace tar.WebSocket {
+namespace ajh.WebSocket {
   public class WebSocketClientOptions {
     public X509CertificateCollection ClientCertificates { get; set; }
     public CookieContainer Cookies { get; set; }

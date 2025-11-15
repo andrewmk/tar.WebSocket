@@ -7,7 +7,7 @@
     <Copyright>© tar 2024, Germany. GNU GPL v3</Copyright>
     <Authors>tar</Authors>
     <PackageTags>websocket; websocketclient; web socket; web socket client; socketclient</PackageTags>
-    <RepositoryUrl>https://github.com/tardezyx/tar.WebSocket</RepositoryUrl>
+    <RepositoryUrl>https://github.com/andrewmk/tar.WebSocket</RepositoryUrl>
     <PackageProjectUrl></PackageProjectUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
